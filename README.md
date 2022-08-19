@@ -16,3 +16,12 @@
 | GET   | `/shopitens`             |
 | PATCH  | `/shopitens/:id`    |
 | DELETE | `/shopitens/:id`           |
+
+### Shop Cart
+| Verb   | URI Pattern            | 
+|--------|------------------------|
+| POST   | `/shopcart`            |
+| GET   | `/shopcart`             |
+| GET   | `/shopcart`             |
+| PATCH  | `/shopcart/:id`    |
+| DELETE | `/shopcart/:id`           |
