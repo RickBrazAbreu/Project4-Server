@@ -25,3 +25,14 @@
 | GET   | `/shopcart`             |
 | PATCH  | `/shopcart/:id`    |
 | DELETE | `/shopcart/:id`           |
+
+
+#### ERD
+
+![](./planning/ERD/ERD.jpg)
+
+
+## Group members
+
+Pedro Abreu
+Tyson Mcguire
