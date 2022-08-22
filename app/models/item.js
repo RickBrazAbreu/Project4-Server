@@ -1,29 +1,29 @@
 
 const mongoose = require('mongoose')
 
-const weaponSchema = require('./weapons')
+//const weaponSchema = require('./weapons')
 
 const { Schema, model } = mongoose
 
 const itemSchema = new Schema(
     {
-        name: {
+        item: {
             type: String,
             required: true
         },
-        type: {
+        brand: {
             type: String,
             required: true
         },
-        age: {
+        price: {
             type: Number,
             required: true
         },
-        strong: {
+        new: {
             type: Boolean,
             required: true
         },
-        weapons: [weaponSchema],
+        //weapons: [weaponSchema],
         owner: {
 			type: Schema.Types.ObjectId,
 			ref: 'User'
