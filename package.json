@@ -1,13 +1,14 @@
 {
-  "name": "express-auth-mongoose-boilerplate",
+  "name": "DragonBall-API-boilerplate",
   "version": "1.0.0",
-  "description": "Auth boilerplate for mongoose express using token auth",
+  "description": "Creating  new API to Dragon Ball Z",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./app/models/seed.js"
   },
-  "author": "Timm Schoenborn",
+  "author": "Henrique Abreu",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
