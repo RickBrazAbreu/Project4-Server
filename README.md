@@ -2,6 +2,11 @@
   We are a Virtual Store, where clients can create their profile , log in, log out, and buy their clothes, You can add money to your account and spend this money.
    (...in version 2.0  our customers will be able to use a real credCard.. "Maybe"..).
 
+### Technologies used
+
+- node.js
+- react.js
+- Stripe API
 
 ### Authentication
 
