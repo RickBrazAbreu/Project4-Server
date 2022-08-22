@@ -6,7 +6,7 @@ const db = require('../../config/db')
 const startItens = [
     { item: 'Tshirt', brand: 'Nike', price: 30, new: true},
     { item: 'Shorts', brand: 'Adidas', price: 15, new: true},
-    { item: 'Pants', brand: 'LuluLemon', price: 35, new: true},
+    { item: 'Pantss', brand: 'LuluLemon', price: 35, new: true},
     { item: 'Shoes', brand: 'Adidas', price: 55, new: true},
     { item: 'Tshirt', brand: 'LuluLemon', price: 35, new: true},
     { item: 'Shorts', brand: 'Nike', price: 54, new: true},
