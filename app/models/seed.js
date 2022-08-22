@@ -4,14 +4,14 @@ const Item = require('./item')
 const db = require('../../config/db')
 
 const startItens = [
-    { name: 'Goku', type: 'Item', age: 30, strong: true},
-    { name: 'Gohan', type: 'Item', age: 15, strong: true},
-    { name: 'Freeza', type: 'ALien', age: 35, strong: true},
-    { name: ' Vegeta', type: 'Item', age: 33, strong: true},
-    { name: 'Goku', type: 'Item', age: 36, strong: true},
-    { name: 'Gohan', type: 'Item', age: 54, strong: true},
-    { name: 'Freeza', type: 'ALien', age: 22, strong: true},
-    { name: ' Vegeta', type: 'Item', age: 378, strong: true},
+    { item: 'Tshirt', brand: 'Nike', price: 30, new: true},
+    { item: 'Shorts', brand: 'Adidas', price: 15, new: true},
+    { item: 'Pants', brand: 'LuluLemon', price: 35, new: true},
+    { item: 'Shoes', brand: 'Adidas', price: 55, new: true},
+    { item: 'Tshirt', brand: 'LuluLemon', price: 35, new: true},
+    { item: 'Shorts', brand: 'Nike', price: 54, new: true},
+    { item: 'Pants', brand: 'Gucci', price: 220, new: true},
+    { item: 'Chinelas', brand: 'Nike', price: 78, new: true}
 ]
 
 // first we need to connect to the database

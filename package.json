@@ -1,7 +1,7 @@
 {
-  "name": "DragonBall-API-boilerplate",
+  "name": "Yellow Stone",
   "version": "1.0.0",
-  "description": "Creating  new API to Dragon Ball Z",
+  "description": "Creating  new API to YellowStone",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
