@@ -1,4 +1,9 @@
 
+import jacket from '../imgs store/jacket.jpeg'
+import pants from '../imgs store/pants.jpeg'
+import shorts from '../imgs store/shorts.jpeg'
+import tshirt from '../imgs store/tshirt.jpeg'
+
 const mongoose = require('mongoose')
 
 //const weaponSchema = require('./weapons')
@@ -23,11 +28,13 @@ const itemSchema = new Schema(
             type: Boolean,
             required: true
         },
-        //weapons: [weaponSchema],
-        owner: {
-			type: Schema.Types.ObjectId,
-			ref: 'User'
-		}
+        //here is the where to select the image to the type of item
+        itemtype: {
+            type: Image,
+            enum:[pants, jacket, shorts, tshirt]
+
+        }
+        
     }, {
         timestamps: true,
 
