@@ -5,7 +5,7 @@ const cors = require('cors')
 
 // require route files
 const itemRoutes = require('./app/routes/item_routes')
-const weaponRoutes = require('./app/routes/weapon_routes')
+
 const exampleRoutes = require('./app/routes/example_routes')
 const userRoutes = require('./app/routes/user_routes')
 
@@ -68,7 +68,6 @@ app.use(requestLogger)
 
 // register route files
 app.use(itemRoutes)
-app.use(weaponRoutes)
 app.use(exampleRoutes)
 app.use(userRoutes)
 

@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose')
 
-//const weaponSchema = require('./weapons')
+
 
 const { Schema, model } = mongoose
 
@@ -23,7 +23,7 @@ const itemSchema = new Schema(
             type: Boolean,
             required: true
         },
-        //weapons: [weaponSchema],
+       
         owner: {
 			type: Schema.Types.ObjectId,
 			ref: 'User'
